@@ -1,16 +1,16 @@
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, type Dispatch, type SetStateAction } from "react";
 import type { Wizard } from "@/types/wizard";
 
 export function useWizardTable(wizards: Wizard[], pageSize = 4) {
-  const [searchQuery, setSearchQuery] = useState("");
+  const [searchQuery, setSearchQueryState] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [selectedWizard, setSelectedWizard] = useState<Wizard | null>(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  // Reset to first page when search query changes
-  useEffect(() => {
+  const setSearchQuery: Dispatch<SetStateAction<string>> = (value) => {
     setCurrentPage(1);
-  }, [searchQuery]);
+    setSearchQueryState(value);
+  };
 
   // Filtered wizards list based on query (first name, last name, specialty, or elixirs)
   const filteredWizards = useMemo(() => {
