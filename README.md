@@ -3,7 +3,7 @@
 A responsive dashboard built with React and TypeScript based on the provided Figma design
 
 ### Links
-- Live Demo: https://wizards-task.netlify.app/
+- Live Demo: https://wizard-task.netlify.app/
 - Figma Design: https://www.figma.com/design/tLZbkUhvgYljMzOBJZ3nrl/Frontend-wizards-task
 
 
