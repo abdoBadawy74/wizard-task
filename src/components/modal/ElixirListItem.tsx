@@ -16,7 +16,7 @@ export function ElixirListItem({ elixir }: ElixirListItemProps) {
 
         {/* Potion Information */}
         <div className="flex flex-col">
-          <span className="text-xs font-semibold text-text-primary group-hover:text-accent-purple transition-colors">
+          <span className="text-xs font-semibold text-text-primary group-hover:text-accent-lavender transition-colors">
             {elixir.name}
           </span>
           <span className="text-[10px] text-text-secondary mt-0.5">

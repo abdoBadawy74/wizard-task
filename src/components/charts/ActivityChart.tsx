@@ -35,7 +35,7 @@ export function ActivityChart() {
           <BarChart
             data={activityData}
             margin={{ top: 10, right: 10, left: -25, bottom: 0 }}
-            barSize={20}
+            barSize={25}
           >
             <CartesianGrid
               vertical={false}

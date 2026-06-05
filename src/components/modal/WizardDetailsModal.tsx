@@ -44,7 +44,7 @@ export function WizardDetailsModal({
       case "High Council":
         return "bg-accent-amber/15 text-accent-amber border border-accent-amber/30";
       case "Order of Merlin":
-        return "bg-accent-purple/15 text-accent-purple border border-accent-purple/30";
+        return "bg-accent-lavender/15 text-accent-lavender border border-accent-lavender/30";
       default:
         return "bg-accent-orange/15 text-accent-orange border border-accent-orange/30";
     }
@@ -182,10 +182,10 @@ export function WizardDetailsModal({
 
         {/* Footer controls */}
         <DialogFooter className="mt-8 border-t border-border-subtle/50 pt-4 flex sm:items-center sm:justify-end gap-2">
-          <Button variant="ghost" onClick={onClose} className="px-5 text-xs font-semibold">
+          <Button variant="ghost" onClick={onClose} className="px-5 text-xs font-semibold border border-border-subtle">
             Close
           </Button>
-          <Button className="gap-2 bg-accent-lavender text-xs font-semibold text-accent-purple shadow-lg hover:from-accent-purple/90 hover:to-indigo-600/90 px-5">
+          <Button className="gap-2 bg-accent-lavender text-xs font-semibold text-accent-purple shadow-lg hover:bg-accent-lavender/80 px-5">
             <Edit3 className="h-3.5 w-3.5" />
             <span>Edit Record</span>
           </Button>

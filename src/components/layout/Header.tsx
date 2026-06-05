@@ -30,8 +30,7 @@ export function Header({ onMenuToggle }: HeaderProps) {
           <input
             type="text"
             placeholder="Scrying records..."
-            className="h-10 w-full rounded-lg border border-border-subtle bg-card/50 pl-10 pr-4 text-sm text-text-primary placeholder-text-muted focus:border-accent-purple/50 focus:bg-card focus:outline-none focus:ring-1 focus:ring-accent-purple/50 transition-all"
-            disabled
+            className="h-10 w-full rounded-lg border border-border-subtle bg-card/50 pl-10 pr-4 text-sm text-text-primary placeholder-text-muted focus:border-accent-purple/50 focus:bg-card focus:outline-none focus:ring-1 focus:ring-accent-lavender transition-all"
           />
         </div>
       </div>

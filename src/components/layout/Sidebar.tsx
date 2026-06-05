@@ -54,7 +54,7 @@ export function Sidebar({ isOpen, onClose }: SidebarProps) {
         {/* Footer Actions */}
         <div className="mt-auto space-y-5 px-1">
           {/* New Elixir Button */}
-          <Button className="w-full justify-center gap-2 bg-accent-lavender font-semibold text-accent-purple shadow-lg shadow-accent-purple/20 hover:bg-accent-purple hover:text-white py-5 transition-all duration-300">
+          <Button className="w-full justify-center gap-2 bg-accent-lavender font-semibold text-accent-purple shadow-lg shadow-accent-purple/20 hover:bg-accent-lavender/80 py-5 transition-all duration-300">
             <Plus className="h-4 w-4" />
             <span>New Elixir</span>
           </Button>
